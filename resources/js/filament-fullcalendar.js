@@ -26,6 +26,7 @@ export default function fullcalendar({
     selectable,
     eventClassNames,
     eventContent,
+    datesSet,
     eventDidMount,
     eventWillUnmount,
 }) {
@@ -48,6 +49,7 @@ export default function fullcalendar({
                 locales,
                 eventClassNames,
                 eventContent,
+                datesSet,
                 eventDidMount,
                 eventWillUnmount,
                 events: (info, successCallback, failureCallback) => {

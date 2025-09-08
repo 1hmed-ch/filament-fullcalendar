@@ -21,6 +21,7 @@
                 selectable: @json($plugin->isSelectable()),
                 eventClassNames: {!! htmlspecialchars($this->eventClassNames(), ENT_COMPAT) !!},
                 eventContent: {!! htmlspecialchars($this->eventContent(), ENT_COMPAT) !!},
+                datesSet: {!! htmlspecialchars($this->datesSet(), ENT_COMPAT) !!},
                 eventDidMount: {!! htmlspecialchars($this->eventDidMount(), ENT_COMPAT) !!},
                 eventWillUnmount: {!! htmlspecialchars($this->eventWillUnmount(), ENT_COMPAT) !!},
             })">

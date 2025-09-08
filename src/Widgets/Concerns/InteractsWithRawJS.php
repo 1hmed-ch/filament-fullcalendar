@@ -48,6 +48,13 @@ trait InteractsWithRawJS
         JS;
     }
 
+    public function datesSet(): string
+    {
+        return <<<JS
+            null
+        JS;
+    }
+
     /**
      * Called right before the element will be removed from the DOM.
      *
